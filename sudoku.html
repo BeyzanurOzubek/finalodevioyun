@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Sudoku">
+    <meta name="description" content="Sudoku">
+    <meta name="author" content="Beyzanur ÖZÜBEK">
+    <title>Sudoku</title>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sudoku.css">
+    <script src="sudoku.js"></script>
+</head>
+<body >
+    <hr class="line">
+    <div class="menu-bar">
+        <ul>
+            <li><a href="anasayfa.html"><h1>OYUNLAR</h1></a> </li>
+            <li><h1>|</h1></a> </li>
+            <li><a href="sudoku.html"> <h1>SUDOKU</h1></a> </li>
+        </ul>
+        <hr class="line-color">
+    </div>
+    <h2>Sudoku Nasıl Oynanır?</h2>
+    <p>
+        Sudoku oyunu 9 hücreden oluşan 9 karenin 3 boyut diyebileceğimiz düzlemde 1’den 9’a kadar 
+        sayıların tek bir defa kullanılması şartı ile dizilmesi gerekiyor. Sudoku oyununda her 
+        satır ve sütunda 1'den 9'a kadar olan sayılar sadece bir kez kullanılarak dizilmesi gerekir. 
+        Aynı zaman da sudoku oyununda 9 hücreden oluşan her bir kare içinde 1'den 9'a kadar 
+        sayılar bir kez kullanılarak dizilmesi gerekir.
+    </p>
+    <h2 id="errors">0</h2>
+    
+    <div id="board"></div>
+    <br>
+    <div id="digits">
+        
+    </div>
+
+</body>
+</html>

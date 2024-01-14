@@ -1,0 +1,51 @@
+.line {
+    background-color: rgb(235, 89, 41);
+    height: 10px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.line-color {
+    background-color: rgb(235, 89, 41);
+    height: 3px;
+}
+.menu-bar{
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex ;
+    list-style: none;
+}
+.menu-bar ul li{
+    margin-right: 70px;
+  
+}
+a{
+    text-decoration: none;
+    color:#190404;
+}
+.box{
+    background: rgb(250, 247, 247);
+    width: 1000px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(250, 247, 247);
+    width: 650px;
+    padding: 5px;
+    border-radius: 5px;
+}
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img {
+    width: 80%;
+    height: 70%;
+    margin-top: 5px;
+    margin-bottom: 3cqmax;
+  }

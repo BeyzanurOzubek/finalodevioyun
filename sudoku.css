@@ -1,0 +1,107 @@
+.line {
+    background-color: rgb(235, 89, 41);
+    height: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-size: 110% ;
+    text-align: center;
+  }
+
+.line-color {
+    background-color: rgb(235, 89, 41);
+    height: 3px;
+}
+.menu-bar{
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex ;
+    list-style: none;
+}
+.menu-bar ul li{
+    margin-right: 70px;
+  
+}
+a{
+    text-decoration: none;
+    color:#190404;
+}
+
+#errors {
+    color: coral;
+    text-align: center;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#digits {
+    width: 450px;
+    height: 50px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightgray;
+    
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected{
+    background-color: gray;
+}
+
+.tile-star{
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
